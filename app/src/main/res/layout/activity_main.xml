@@ -1,0 +1,461 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity"
+    android:background="#F5F5F5" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/HeaderTheme"
+            android:paddingTop="8dp"
+            android:text="@string/quiz_header" />
+
+        <TextView
+            style="@style/InstructionTheme"
+            android:paddingTop="8dp"
+            android:text="@string/quiz_instructions" />
+
+        <TextView
+            style="@style/QuestionHeaderTheme"
+            android:text="@string/question_1_header" />
+
+        <TextView
+            style="@style/QuestionBodyTheme"
+            android:text="@string/question_1_body" />
+
+        <RadioGroup
+            android:id="@+id/yankari_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_benue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Benue"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_kaduna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Kaduna"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_kogi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Kogi"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_bauchi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Bauchi"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/QuestionHeaderTheme"
+            android:text="@string/question_2_header" />
+
+        <TextView
+            style="@style/QuestionBodyTheme"
+            android:layout_marginRight="12dp"
+            android:text="@string/question_2_body" />
+
+        <RadioGroup
+            android:id="@+id/ikogosi_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_nnewi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Nnewi"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_ikogosi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Ikogosi"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_sapele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Sapele"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_ibadan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Ibadan"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeaderTheme"
+            android:text="@string/question_3_header" />
+
+        <TextView
+            style="@style/QuestionBodyTheme"
+            android:text="@string/question_3_body" />
+
+        <RadioGroup
+            android:id="@+id/volcanoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="True"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="False"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeaderTheme"
+            android:paddingBottom="16dp"
+            android:text="@string/question_4_header" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:scaleType="center"
+            android:src="@drawable/castle" />
+
+        <TextView
+            style="@style/QuestionBodyTheme"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_4_body" />
+
+        <EditText
+            android:id="@+id/input_kaduna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="8dp"
+            android:hint="Location"
+            android:inputType="textCapSentences"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/QuestionHeaderTheme"
+            android:text="@string/question_5_header" />
+
+        <TextView
+            style="@style/QuestionBodyTheme"
+            android:text="@string/question_5_body" />
+
+        <RadioGroup
+            android:id="@+id/kajuri_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_lancaster_castle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Lancaster Castle"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_richmond_castle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Richmond Castle"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_kajuri_castle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Kajuri Castle"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radio_dudley_castle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:text="Dudley Castle"
+                android:textColor="#424242"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeaderTheme"
+            android:text="@string/question_6_header" />
+
+        <TextView
+            style="@style/QuestionBodyTheme"
+            android:layout_marginRight="8dp"
+            android:text="@string/question_6_body" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBoxOgbunike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Ogbunike Cave"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxApapa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Apapa Amusement Park"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxNgwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Ngwo Pine Forest"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxGurara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Gurara Waterfalls"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBoxPalms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="The Palms, Lekki"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxOlumo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Olumo Rock"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxQuilox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="10dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Quilox"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxIkogosi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:text="Ikogosi Warm Springs"
+                    android:textColor="#424242"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/clear_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:text="Clear"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:text="Submit"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

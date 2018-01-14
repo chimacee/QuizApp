@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz_header">Nigerian Tourism Trivia</string>
+    <string name="quiz_instructions">Answer ALL Questions Carefully.</string>
+    <string name="question_1_header">Question 1</string>
+    <string name="question_2_header">Question 2</string>
+    <string name="question_3_header">Question 3</string>
+    <string name="question_4_header">Question 4</string>
+    <string name="question_5_header">Question 5</string>
+    <string name="question_6_header">Question 6</string>
+    <string name="question_1_body">Where in Nigeria is Yankari National Park located?</string>
+    <string name="question_2_body">Where is the hometown of the warm and cold spring in Nigeria?</string>
+    <string name="question_2_answer">Ikogosi</string>
+    <string name="question_3_body">Nigeria has non-active volcanoes. True or False?</string>
+    <string name="question_4_body">Built in 1978 by Hermann Huebner, where in Nigeria is this castle located?</string>
+    <string name="question_5_body">What is the name by which the castle above is popularly known?</string>
+    <string name="question_6_body">Which of the following is/are example(s) of tourist sites in Nigeria? (Feel free to tick more than one option)</string>
+
+</resources>
